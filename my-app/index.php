@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+
     <title></title>
   </head>
   <body>
@@ -15,6 +16,7 @@
   // per la prima milestone
   require_once __DIR__ . '/database/database.php';
 
+
   // print_r($dischi);
 
 
@@ -24,16 +26,13 @@
 ?>
 
 <?php
-
   foreach($dischi as $disco) {
 ?>
 
   <div class="container">
 
 
-    <div class="copertina">
-      <?php echo $disco['copertina']; ?>
-    </div>
+    <img src="<?php echo $disco['copertina']; ?>" />
 
     <div class="titolo">
       <?php echo $disco['titolo']; ?>

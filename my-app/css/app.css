@@ -3,3 +3,10 @@
   padding: 0;
   margin: 0;
 }
+
+.container {
+  background-color: red;
+}
+.container img {
+  width: 120px;
+}
