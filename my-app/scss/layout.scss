@@ -1,5 +1,12 @@
 @mixin W-1200-container {
   width: 1200px;
-  // border: 1px solid black;
+  border: 1px solid white;
   margin: auto;
+}
+
+@mixin flex-column-between {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }

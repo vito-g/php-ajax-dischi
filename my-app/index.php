@@ -25,33 +25,37 @@
   // e stampare copertina, titolo e così via, come da screenshot.
 ?>
 
+<div id="container">
+
 <?php
   foreach($dischi as $disco) {
 ?>
 
-  <div class="container">
 
+    <div id="card">
 
-    <img src="<?php echo $disco['copertina']; ?>" />
+      <img src="<?php echo $disco['copertina']; ?>" />
 
-    <div class="titolo">
-      <?php echo $disco['titolo']; ?>
+      <div id="titolo">
+        <?php echo $disco['titolo']; ?>
+      </div>
+
+      <div id="autore">
+        <?php echo $disco['autore']; ?>
+      </div>
+
+      <div id="anno">
+        <?php echo $disco['anno']; ?>
+      </div>
+
     </div>
 
-    <div class="autore">
-      <?php echo $disco['autore']; ?>
-    </div>
 
-    <div class="anno">
-      <?php echo $disco['anno']; ?>
-    </div>
-
-
-  </div>
 
 <?php
   }
 ?>
+</div>
 
 </body>
 </html>

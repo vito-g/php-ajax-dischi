@@ -4,11 +4,28 @@
   margin: 0;
 }
 
-.container {
-  background-color: red;
-  height: 100%;
-  width: 100%;
+body {
+  background-color: #222;
 }
-.container img {
+
+#container {
+  width: 1200px;
+  border: 1px solid white;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+#container #card {
+  width: 160px;
+  height: 250px;
+  background-color: black;
+  border: 1px solid white;
+  text-align: center;
+  padding: 20px;
+}
+#container #card img {
   width: 120px;
 }
