@@ -33,7 +33,23 @@ header {
   text-align: center;
   padding: 20px;
 }
-#container #card img {
+#container #card #image {
   width: 130px;
+  height: 130px;
   margin-bottom: 10px;
+}
+#container #card #image img {
+  width: 100%;
+}
+#container #card #titolo {
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+}
+#container #card #autore {
+  font-size: 0.75rem;
+  color: grey;
+  margin-bottom: 2px;
+}
+#container #card #anno {
+  font-size: 0.55rem;
 }

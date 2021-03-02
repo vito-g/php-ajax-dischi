@@ -24,10 +24,30 @@ header {
   text-align: center;
   padding: 20px;
 
-
-    img {
+    #image {
       width: 130px;
+      height: 130px;
       margin-bottom: 10px;
+
+      img {
+        width: 100%;
+      }
+
+    }
+
+    #titolo {
+      font-size: 0.9rem;
+      margin-bottom: 8px;
+    }
+
+    #autore {
+      font-size: 0.75rem;
+      color: grey;
+      margin-bottom: 2px;
+    }
+
+    #anno {
+      font-size: 0.55rem;
     }
 
   }

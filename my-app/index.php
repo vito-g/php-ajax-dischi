@@ -8,7 +8,7 @@
   <body>
 
     <header>
-      
+
     </header>
 
 
@@ -37,7 +37,9 @@
 
     <div id="card">
 
-      <img src="<?php echo $disco['copertina']; ?>" />
+      <div id="image">
+        <img src="<?php echo $disco['copertina']; ?>" />
+      </div>
 
       <div id="titolo">
         <?php echo $disco['titolo']; ?>
