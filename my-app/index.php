@@ -15,7 +15,7 @@
   // per la prima milestone
   require_once __DIR__ . '/database/database.php';
 
-  print_r($dischi);
+  // print_r($dischi);
 
 
 
