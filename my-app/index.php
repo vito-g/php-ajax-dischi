@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+
+
 <?php
 
   // è il php dedicato al frontend (alla view)
@@ -19,22 +29,22 @@
 ?>
 
   <div class="container">
-    
+
 
     <div class="copertina">
-      <?php echo $dischi['copertina']; ?>
+      <?php echo $disco['copertina']; ?>
     </div>
 
     <div class="titolo">
-      <?php echo $dischi['titolo']; ?>
+      <?php echo $disco['titolo']; ?>
     </div>
 
     <div class="autore">
-      <?php echo $dischi['autore']; ?>
+      <?php echo $disco['autore']; ?>
     </div>
 
     <div class="anno">
-      <?php echo $dischi['anno']; ?>
+      <?php echo $disco['anno']; ?>
     </div>
 
 
@@ -43,3 +53,6 @@
 <?php
   }
 ?>
+
+</body>
+</html>
