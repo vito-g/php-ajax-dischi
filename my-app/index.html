@@ -19,7 +19,10 @@
 
       <header>
         <div id="inHeader">
-
+          <select v-model="selected" >
+            <option disabled value="">Please select one</option>
+            <option v-for="element in genreArray">{{element}}</option>
+          </select>
         </div>
 
       </header>

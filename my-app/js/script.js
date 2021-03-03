@@ -3,7 +3,8 @@ new Vue({
   el: '#root',
   data: {
   arrayDiscs: [],
-  genreArray: []
+  genreArray: [],
+  selected: ''
   },
 
   mounted() {
