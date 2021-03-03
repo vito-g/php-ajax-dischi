@@ -9,10 +9,17 @@ body {
 header {
   height: 40px;
   background-color: black;
+
+  #inHeader {
+    width: 630px;
+    height: 100%;
+    margin: auto;
+    border: 1px solid red;
+  }
 }
 
 #container {
-  @include W-600-container;
+  @include W-630-container;
   @include flex-column-between;
   color: white;
 
