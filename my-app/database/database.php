@@ -42,8 +42,8 @@
 
     // var_dump($dischi);
 
-    header('Content-type: application/json');
-
-    $json = json_encode($dischi);
-    echo $json;
+    // header('Content-type: application/json');
+    //
+    // $json = json_encode($dischi);
+    // echo $json;
  ?>
