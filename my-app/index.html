@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/app.css">
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js"></script>
     <title></title>
 </head>
 <body>
@@ -24,22 +25,22 @@
 
 
         <!-- <div v-for="element in arrayDiscs" id="card"> -->
-        <div id="card">
+        <div v-for="element in arrayDiscs" id="card">
 
           <div id="image">
-            <img src="" alt="">
+            <img :src="element.copertina" alt="">
           </div>
 
           <div id="titolo">
-
+            {{element.titolo}}
           </div>
 
           <div id="autore">
-
+            {{element.autore}}
           </div>
 
           <div id="anno">
-
+            {{element.anno}}
           </div>
 
         </div>

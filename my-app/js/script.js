@@ -19,3 +19,4 @@ new Vue({
 
 });
 Vue.config.devtools = true;
+Vue.prototype.$axios = axios;
