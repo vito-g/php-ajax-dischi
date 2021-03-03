@@ -2,7 +2,8 @@ new Vue({
   // Qui sotto dichiaro in quale container Vue verrà visualizzato:
   el: '#root',
   data: {
-  arrayDiscs: []
+  arrayDiscs: [],
+  genreArray: []
   },
 
   mounted() {
@@ -14,9 +15,17 @@ new Vue({
         console.log('risposta vue', resp.data);
         self.arrayDiscs = resp.data;
         console.log(self.arrayDiscs);
+
+        self.arrayDiscs.forEach(function(element) {
+          if (!self.genreArray.includes(element.genere)) {
+            self.genreArray.push(element.genere);
+            console.log(element.genere);
+          }
+        })
+
       });
   }
 
 });
 Vue.config.devtools = true;
-Vue.prototype.$axios = axios;
+// Vue.prototype.$axios = axios;

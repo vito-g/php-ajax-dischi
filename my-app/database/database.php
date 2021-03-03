@@ -5,37 +5,43 @@
       'copertina' => 'https://images-na.ssl-images-amazon.com/images/I/71rlPeoAqUL._AC_SL1078_.jpg',
       'titolo' => 'New Jersey',
       'autore' => 'Bon Jovi',
-      'anno' => '1988'
+      'anno' => '1988',
+      'genere' => 'rock'
     ],
     [
       'copertina' => 'https://images-na.ssl-images-amazon.com/images/I/51WZVRdismL._AC_.jpg',
       'titolo' => 'Live at Wembley 86',
       'autore' => 'Queen',
-      'anno' => '1992'
+      'anno' => '1992',
+      'genere' => 'pop'
     ],
     [
       'copertina' => 'https://cdn.ontourmedia.io/sting/non_secure/images/20110419/discography/ten/400.jpg',
       'titolo' => 'Ten\'s Summoner\'s Tales',
       'autore' => 'Sting',
-      'anno' => '1993'
+      'anno' => '1993',
+      'genere' => 'pop'
     ],
     [
       'copertina' => 'https://m.media-amazon.com/images/I/81UtLzBDoEL._SS500_.jpg',
       'titolo' => 'Steve Gadd Band',
       'autore' => 'Steve Gadd Band',
-      'anno' => '2018'
+      'anno' => '2018',
+      'genere' => 'jazz'
     ],
     [
       'copertina' => 'https://images-na.ssl-images-amazon.com/images/I/81ll31VxLDL._AC_SL1200_.jpg',
       'titolo' => 'Brave New World',
       'autore' => 'Iron Maiden',
-      'anno' => '2000'
+      'anno' => '2000',
+      'genere' => 'hard-rock'
     ],
     [
       'copertina' => 'https://images-na.ssl-images-amazon.com/images/I/81Iuivs4A7L._AC_SL1500_.jpg',
       'titolo' => 'One more car, one more rider',
       'autore' => 'Eric Clapton',
-      'anno' => '2002'
+      'anno' => '2002',
+      'genere' => 'rock'
     ]
 
     ];
