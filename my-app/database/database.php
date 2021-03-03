@@ -40,5 +40,8 @@
 
     ];
 
+    var_dump($dischi);
 
+    $json = json_encode($dischi);
+    echo $json;
  ?>
