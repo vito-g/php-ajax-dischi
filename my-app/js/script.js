@@ -24,6 +24,12 @@ new Vue({
         })
 
       });
+  },
+
+  methods: {
+    filteredDiscs: function(item) {
+      return item.genre == this.selected || this.selected == '';
+    }
   }
 
 });
